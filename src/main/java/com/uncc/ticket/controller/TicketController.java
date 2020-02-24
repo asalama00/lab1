@@ -26,6 +26,7 @@ public class TicketController {
         this.ticketService = ticketService;
         this.usersService = usersService;
     }
+//hello second commit
 
     @RequestMapping(value = {"/", ""}, method = RequestMethod.GET)
     public String getTickets(Model model, Principal principal) {
